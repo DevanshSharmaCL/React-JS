@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Fetch from "./Fetching Using UseEffect";
+import MultipleReturn from "./MultipleReturn";
 
 const root = ReactDOM.createRoot(document.getElementById('root')); // Corrected
 root.render(
     <React.StrictMode>
-         <Fetch />
+        <MultipleReturn/>
     </React.StrictMode>
 );
  
