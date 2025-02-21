@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Memo from "./Memo";
+import ContextAPIExampler from "./ContextAPIExampler-1";
 
 const root = ReactDOM.createRoot(document.getElementById('root')); // Corrected
 root.render(
     <React.StrictMode>
-        <Memo />
+        <ContextAPIExampler />   
     </React.StrictMode>
 );
  
