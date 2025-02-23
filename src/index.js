@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ContextAPIExampler from "./ContextAPIExampler-1";
+import Counter from "./All Topics/useReducer/Ecample-2";
 
 const root = ReactDOM.createRoot(document.getElementById('root')); // Corrected
 root.render(
     <React.StrictMode>
-        <ContextAPIExampler />   
+        <Counter />
     </React.StrictMode>
 );
  
