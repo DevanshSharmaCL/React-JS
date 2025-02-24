@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Video_Player_Controller from "./All Topics/UseRef/Video_Player_Controller";
+import Counter from "./All Topics/Custom Hooks/UseCounter";
 
 const root = ReactDOM.createRoot(document.getElementById('root')); // Corrected
 root.render(
     <React.StrictMode>
-        <Video_Player_Controller />
+        <Counter />
     </React.StrictMode>
 );
  
