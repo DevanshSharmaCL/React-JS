@@ -60,3 +60,21 @@ function App() {
 }
 
 export default App;
+
+
+// How It Works:
+// Home: Just a welcome message.
+// PostList:
+// Shows all posts as links to /post/1, /post/2, etc.
+// Post:
+// Uses useParams() to grab the id from the URL (e.g., 1 from /post/1).
+// Finds the matching post and shows it, or “not found” if there’s no match.
+// Routing:
+// / → Home.
+// /posts → Post list.
+// /post/:id → Specific post (e.g., /post/1).
+// Try it:
+
+// Click “Posts” to see the list.
+// Click a post title (e.g., “First Post”) to view it.
+// Use “Back to Posts” to return.
