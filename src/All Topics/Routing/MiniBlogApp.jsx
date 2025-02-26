@@ -78,3 +78,14 @@ export default App;
 // Click “Posts” to see the list.
 // Click a post title (e.g., “First Post”) to view it.
 // Use “Back to Posts” to return.
+
+
+
+
+// Key Tips
+// Wrap Everything: Put BrowserRouter at the top (usually in App or index.js).
+// Dynamic Paths: Use :param (like :id) for flexible URLs.
+// Nesting: You can put <Routes> inside other components for deeper routing (not shown here).
+// Use useNavigate: For programmatic navigation (e.g., navigate('/home')).
+// Surprising Detail: It’s All Fake!
+// React Router doesn’t really load new pages—it just swaps components in and out based on the URL. The browser’s back/forward buttons still work because it syncs with the browser’s history.
