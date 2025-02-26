@@ -21,3 +21,10 @@ function jokes (){
 }
 
 export default jokes;
+
+
+// What’s Happening:
+// useEffect runs when the component loads.
+// axios.get fetches a joke from the API.
+// response.data has the joke (e.g., { setup: "Why...", punchline: "Because..." }).
+// Sets the joke or an error message.
