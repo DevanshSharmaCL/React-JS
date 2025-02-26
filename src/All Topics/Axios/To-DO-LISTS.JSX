@@ -59,3 +59,35 @@ function TodoApp() {
 }
 
 export default TodoApp;
+
+
+
+
+// How It Works:
+// Fetching Todos:
+// useEffect grabs 5 todos from the API when the app loads.
+// setTodos updates the list, loading shows a message while fetching.
+// Adding Todos:
+// Type a task, click “Add.”
+// axios.post sends it to the fake API, which echoes it back.
+// The new todo is added to the top of the list.
+// Display:
+// Shows “Loading…” until data arrives, then lists the todos.
+// Try it:
+
+// Watch the initial todos load.
+// Add a new one (e.g., “Buy milk”)—it appears at the top (fake API doesn’t save it, but it looks real!).
+// Key Tips
+// Async/Await: You can use async functions instead of .then:
+// js
+// Wrap
+// Copy
+// const fetchData = async () => {
+//   const response = await axios.get('url');
+//   setData(response.data);
+// };
+// Error Handling: Always use .catch or try/catch to handle failures.
+// Base URL: Set axios.defaults.baseURL = 'https://api.example.com' for shorter calls.
+// Params: Add query params like axios.get('/todos', { params: { limit: 5 } }).
+// Surprising Detail: Interceptors!
+// Axios lets you add “interceptors” to tweak every request or response (e.g., add a token to headers automatically). It’s like a filter for all your mail!
